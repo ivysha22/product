@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+img{
+    width: 50%;
+}
+.container{
+    background-color: white;
+    width: 50%;
+    justify-content: space-between;
+    padding:30px 40px;
+}
+span{
+    justify-content: space-between;
+}
+h2{
+    font-size: small;
+    color: grey;
+}
+h1{
+    font-weight: 800;
+    font-size:xx-large;
+}
+p{
+    color: grey;
+}
+#one{
+    font-size:xx-large;
+    color: hsl(158, 36%, 37%);
+}
+#two{
+    font-size: smaller;
+    padding: 40px 30px;
+    color: grey;
+    
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    margin: 30px auto;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    color: white;
+    text-align: center;
+}
+#icon{
+    width: 6%;
+    padding-right: 10px;
+}
+.span{
+    display: flex;
+    align-items: center;
+}
